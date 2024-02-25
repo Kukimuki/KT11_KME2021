@@ -1,0 +1,26 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+.box-container {
+    align-items: center;
+    display: flex;
+    justify-content: center; /*center the box-container */
+    height: 75vh;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.box {
+    align-items: center;
+    display: flex;
+   justify-content: center; /*center the box */
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 75%;
+    margin: 0 auto;
+    width: 75%;
+}
